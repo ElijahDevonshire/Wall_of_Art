@@ -45,11 +45,13 @@ const UpdateOne = (props) => {
     }
     
     return (
-        <div>
-            <h2>Update "{title}"</h2>
-            <h5>Share how a piece of art made you feel</h5>
-            <p><Link to="/home">Back to Wall</Link></p>
-            <form onSubmit={handleUpdateArt}>
+        <div className="container">
+            <div className="App-header">
+                <h2>Add New Art</h2>
+                <h5>Share how a piece of art made you feel</h5>
+                <p><Link to="/home">Back to Wall</Link></p>
+            </div>
+            <form className="form-box" onSubmit={handleUpdateArt}>
                 <div className="form-group">
                     <input
                     style={{width: "300px"}}
