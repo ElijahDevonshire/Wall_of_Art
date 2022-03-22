@@ -34,7 +34,7 @@ const DisplayOne = (props) => {
         <div className="container">
             <div className="App-header">
                 <h1>Wall of Art</h1>
-                <h5>Share how a piece of art made you feel</h5>
+                <h5>A place to share creations</h5>
                 <Link to="/home">Back to Wall</Link>
             </div>
             <div className="displayOne">
