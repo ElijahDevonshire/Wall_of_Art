@@ -34,7 +34,7 @@ const ArtForm = () => {
         <div className="container">
             <div className="App-header">
                 <h2>Add New Art</h2>
-                <h5>Share how a piece of art made you feel</h5>
+                <h5>A place to share creations</h5>
                 <p><Link to="/home">Back to Wall</Link></p>
             </div>
             <div className="form-box">
